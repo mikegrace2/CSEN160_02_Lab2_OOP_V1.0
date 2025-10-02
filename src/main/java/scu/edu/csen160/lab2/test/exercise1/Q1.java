@@ -1,8 +1,5 @@
 package scu.edu.csen160.lab2.test.exercise1;
 
-///**
-// * @(#)Stack.java
-// */
 class Array {
     private int[] itemList = null;
     private int maxLength = -1;
@@ -52,9 +49,9 @@ class Stack {
     public Stack(int maxLength) {
         // ToDo: Implement me
         // Create Array with maximum length
-//        this.maxLength = maxLength;
+        // this.maxLength = maxLength;
         this.myArr = new Array(maxLength);
-//        this.index=0;
+        // this.index=0;
     }
 
     public void push(int value) {

@@ -1,8 +1,5 @@
 package scu.edu.csen160.lab2.test.exercise3;
 
-/**
- * Lockable Items
- */
 interface Lockable {
     // ToDo: Implement Lockable interface
 
