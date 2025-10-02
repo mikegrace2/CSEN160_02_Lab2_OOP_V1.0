@@ -1,9 +1,6 @@
 package scu.edu.csen160.lab2.test.exercise4;
 
 
-
-//package edu.scu.coen160.lab2;
-//
 class Singleton {
     // Static variable reference of single_instance
     // of type Singleton

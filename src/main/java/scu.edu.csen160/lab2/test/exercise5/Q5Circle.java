@@ -1,7 +1,5 @@
 package scu.edu.csen160.lab2.test.exercise5;
 
-//package edu.scu.coen160.lab2;
-
 public class Q5Circle extends Q5Figure {
     private Q5Circle() {
         // Not allowed!
