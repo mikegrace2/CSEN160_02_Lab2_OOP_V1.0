@@ -1,9 +1,5 @@
 package scu.edu.csen160.lab2.test.exercise1;
 
-//public class Q1 {
-//}
-//package edu.scu.coen160.lab2;
-//
 ///**
 // * @(#)Stack.java
 // */
@@ -63,23 +59,17 @@ class Stack {
 
     public void push(int value) {
         // ToDo: Implement me
-        // push one object to the array
-        this.myArr.add(value);
+
     }
 
     public int pop() {
         // ToDo: Implement me
-        // Remove one object
-        return this.myArr.remove();
+        return -1;
     }
 
     public void showStack() {
         // ToDo: Show the elements in the order of LIFO
-        // List array backwards
-        int[] new_arr = this.myArr.returnArray();
-        for (int i = new_arr.length - 1; i >= 0; i--) {
-            System.out.println(new_arr[i]);
-        }
+
     }
 }
 

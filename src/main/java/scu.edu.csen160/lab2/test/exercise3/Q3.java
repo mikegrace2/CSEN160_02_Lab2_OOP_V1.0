@@ -1,18 +1,11 @@
 package scu.edu.csen160.lab2.test.exercise3;
 
-//public class Q3 {
-//}
-
-//package edu.scu.coen160.lab2;
-//
-
 /**
  * Lockable Items
  */
 interface Lockable {
     // ToDo: Implement Lockable interface
-    public void lock(String key);
-    public void unlock(String key);
+
 }
 
 class Box implements Lockable {
@@ -25,16 +18,13 @@ class Box implements Lockable {
 
     public Box(String password) {
         // ToDo: Implement
-        this.password = password;
     }
 
     public void lock(String password) {
         // If password is equal to the saved password
         // set locked to true
         // ToDo: Implement
-        if (this.password.equals(password)) {
-            locked = true;
-        }
+
     }
 
     public void unlock(String password) {
@@ -44,11 +34,7 @@ class Box implements Lockable {
         // If they are equal, set locked to false.
 
         // ToDo: Implement
-        if (locked) {
-            if (password.equals(this.password)) {
-                locked = false;
-            }
-        }
+
     }
 
     public void show() {
@@ -69,7 +55,7 @@ class Computer implements Lockable {
 
     public Computer(String password) {
         // ToDo: Implement
-        this.password = password;
+
     }
 
     public void lock(String password) {
@@ -77,9 +63,7 @@ class Computer implements Lockable {
         // set locked to true
 
         // ToDo: Implement
-        if (this.password.equals(password)) {
-            locked = true;
-        }
+
     }
 
     public void unlock(String pword) {
@@ -89,11 +73,7 @@ class Computer implements Lockable {
         // If they are equal, set locked to false.
 
         // ToDo: Implement
-        if (locked) {
-            if (this.password.equals(pword)) {
-                locked = false;
-            }
-        }
+
     }
 
     public void show() {

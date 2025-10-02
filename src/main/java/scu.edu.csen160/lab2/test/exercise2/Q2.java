@@ -1,36 +1,23 @@
 package scu.edu.csen160.lab2.test.exercise2;
 
-//public class Q2 {
-//}
-
-//package edu.scu.coen160.lab2;
-//
 class Asset { // etend something?
     // ToDo: Implement powerDown
-    void powerDown() {
-        System.out.println("powering down Asset!");
-    }
+
 }
 
 class EmergencyLight extends Asset { // what to extend?
     // ToDo: Implement powerDown
-    void powerDown() {
-        System.out.println("powering down EmergencyLight");
-    }
+
 }
 
 class PersonalComputer extends Asset { // what to extend?
     // ToDo: Implement powerDown
-    void powerDown() {
-        System.out.println("powering down PersonalComputer");
-    }
+
 }
 
 class TV extends Asset { // what to extend?
 //ToDo: Implement powerDown
-    void powerDown() {
-        System.out.println("powering down TV");
-    }
+
 }
 
 class BuildingManager {
